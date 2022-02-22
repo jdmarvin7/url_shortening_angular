@@ -1,0 +1,44 @@
+
+.section {
+  overflow: hidden;
+  height: auto;
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  position: relative;
+  .left-home-part {
+    align-self: center;
+    margin-top: 90px;
+    max-width: 600px;
+    .title {
+      font-size: 70px;
+      line-height: 1;
+      margin-bottom: 35px;
+    }
+    .text {
+      font-size: 18px;
+      align-self: center;
+      color: var(--gray-color-neutral);
+      margin-bottom: 35px;
+    }
+    .botton {
+      background-color: var(--cyan-color-primary);
+      border: none;
+      border-radius: 2rem;
+      padding: 10px 25px;
+      color: white;
+    }
+  }
+  .img {
+    position: absolute;
+    width: 40rem;
+    right: -250px;
+    overflow: hidden;
+  }
+}
+
+

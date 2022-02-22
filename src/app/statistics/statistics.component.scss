@@ -1,0 +1,42 @@
+.statistics {
+  background-color: #eff1f7;
+  padding-top: 90px;
+  z-index: 0;
+
+  .statistics-header {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+    .text {
+      color: var(--gray-color-neutral);
+      font-size: 18px;
+      margin: auto;
+      max-width: 550px;
+    }
+  }
+
+  .cards {
+    padding-bottom: 30px;
+    .row {
+      width: 80%;
+      margin: 30px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .col-4 {
+        flex: 1 1 300px;
+        margin-top: 10px;
+      }
+
+      .item-2 {
+        margin-top: 40px;
+      }
+
+      .item-3 {
+        margin-top: 80px;
+      }
+    }
+  }
+
+}

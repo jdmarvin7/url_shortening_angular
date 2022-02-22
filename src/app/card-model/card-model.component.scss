@@ -1,0 +1,44 @@
+.card {
+  max-width: 400px;
+  background-color : white;
+  border-radius: 0.4rem;
+  margin: 10px;
+  position: relative;
+  &:empty {
+    display: none;
+  }
+
+  .logo-container {
+    background-color: var(--dark-violet-color-primary);
+    max-width: 70px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: grid;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    &:not(empty) {
+      display: none;
+    }
+
+    .logo {
+      max-width: 50px;
+      padding: 10px;
+      margin: auto;
+      place-items: center;
+      background-color: var(--dark-violet-color-primary);
+    }
+  }
+
+  .titulo {
+    padding: 30px 0 0 30px;
+  }
+
+  .texto {
+    color: var(--gray-color-neutral);
+    max-width: 300px;
+    margin: 10px 30px;
+    padding-bottom: 30px;
+  }
+}
