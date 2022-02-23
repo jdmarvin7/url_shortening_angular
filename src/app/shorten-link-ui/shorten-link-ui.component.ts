@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShortenLinkUiComponent implements OnInit {
 
+  link!: string;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  pegandoLink(): void {
+    console.log(this.link);
   }
 
 }

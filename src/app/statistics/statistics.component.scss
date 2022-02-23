@@ -29,12 +29,44 @@
         margin-top: 10px;
       }
 
+      .item-1 {
+        z-index: 2;
+      }
+
       .item-2 {
-        margin-top: 40px;
+        margin-top: 30px;
+        position: relative;
+        z-index: 1;
+
+        &::before {
+          position: absolute;
+          content: '';
+          display: block;
+          width: 60px;
+          height: 10px;
+          top: 120px;
+          left: -40px;
+          z-index: 0;
+          background-color: var(--cyan-color-primary);
+        }
       }
 
       .item-3 {
-        margin-top: 80px;
+        margin-top: 60px;
+        z-index: 0;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          content: '';
+          display: block;
+          width: 60px;
+          height: 10px;
+          top: 90px;
+          left: -40px;
+          z-index: 0;
+          background-color: var(--cyan-color-primary);
+        }
       }
     }
   }

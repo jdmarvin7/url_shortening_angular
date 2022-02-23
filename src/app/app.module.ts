@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +9,7 @@ import { MainHomeComponent } from './main-home/main-home.component';
 import { ShortenLinkUiComponent } from './shorten-link-ui/shorten-link-ui.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { CardModelComponent } from './card-model/card-model.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { CardModelComponent } from './card-model/card-model.component';
     MainHomeComponent,
     ShortenLinkUiComponent,
     StatisticsComponent,
-    CardModelComponent
+    CardModelComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
