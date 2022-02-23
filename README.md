@@ -3,7 +3,9 @@
 # url_shortening_angular
 Esse desafio do [Front Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) consiste em recriar esse landing de encurtar link e consumir uma api com (com html, css e Js)
 
-mas eu fiz esse projeto em angular para poder treinar alguns conceitos básicos do framework.
+mas eu fiz esse projeto em angular para poder aprofundar um pouco e treinar alguns conceitos básicos do framework.
+
+Evitei usar o css puro e o bootstrap para poder treinar também meus conhecimento do Scss.
 
 # UrlShortening
 
