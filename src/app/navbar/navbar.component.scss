@@ -42,3 +42,22 @@
     color: white;
   }
 }
+.fa {
+  display: none;
+  font-size: 27px;
+  color: var(--gray-color-neutral);
+}
+
+@media (max-width: 800px) {
+  .container-logins {
+    display: none;
+  }
+
+  .fa {
+    display: block;
+  }
+
+  .item {
+    display: none;
+  }
+}

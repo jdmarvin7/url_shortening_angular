@@ -42,3 +42,36 @@
 }
 
 
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    position: inherit;
+    .left-home-part {
+      order: 2;
+      position: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .title {
+        text-align: center;
+      }
+      .text {
+        text-align: center;
+      }
+    }
+    .img {
+      order: 1;
+      margin-bottom: 50px;
+      position: inherit;
+      right: 0;
+      top: 0;
+      left: 0;
+      width: 60%;
+      margin: auto;
+      width: 30rem;
+    }
+  }
+
+}

@@ -10,6 +10,7 @@ import { ShortenLinkUiComponent } from './shorten-link-ui/shorten-link-ui.compon
 import { StatisticsComponent } from './statistics/statistics.component';
 import { CardModelComponent } from './card-model/card-model.component';
 import { FooterComponent } from './footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,12 +20,13 @@ import { FooterComponent } from './footer/footer.component';
     ShortenLinkUiComponent,
     StatisticsComponent,
     CardModelComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

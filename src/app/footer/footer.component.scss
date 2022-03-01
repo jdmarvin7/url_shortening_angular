@@ -16,6 +16,10 @@
       align-items: center;
       flex-direction: column;
 
+      .title {
+        font-size: 35px;
+      }
+
       .botao {
         background-color: var(--cyan-color-primary);
         border: none;
@@ -38,6 +42,7 @@
       display: grid;
       grid-template-columns: 1fr 2fr 1fr;
       padding-top: 50px;
+      padding-bottom: 90px;
 
       .footer-img h1 {
         color: white;
@@ -46,8 +51,11 @@
 
       .footer-links {
         display: flex;
+        justify-content: flex-end;
 
         .features-container{
+          margin: 20px;
+
           h1 {
             margin-left: 10px;
             color: white;
@@ -65,4 +73,10 @@
 
 .items {
   color: var(--gray-color-neutral);
+}
+
+.fa {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
 }

@@ -35,3 +35,18 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  .shorten-input {
+    flex-direction: column;
+    .input {
+      flex: 1;
+    }
+    .btn {
+      flex: 1;
+      width: 80%;
+      margin-right: 20px;
+      margin-top: 20px;
+    }
+  }
+}

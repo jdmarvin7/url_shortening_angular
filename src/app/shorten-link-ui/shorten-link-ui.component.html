@@ -1,6 +1,7 @@
 <section class="shorten-container">
-  <form class="shorten-input" (submit)="pegandoLink()">
-    <input type="text" class="input" [(ngModel)]="link" name="link">
-    <input type="submit" class="btn" value="Shorten it!">
+  <form class="shorten-input">
+    <input type="text" class="input" placeholder="Shorten a link here"
+    [(ngModel)]="link" name="link" #campoVazio="ngModel">
+    <input type="submit" (click)="pegandoLink()" (keydown.enter)="pegandoLink()" class="btn" value="Shorten it!">
   </form>
 </section>
